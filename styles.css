@@ -21,7 +21,6 @@ body {
 #con1 {
   background: url(about2.jpeg) no-repeat;
   grid-area: con1;
-  width: 100%;
   height: 100%;
   padding: 10px;
   overflow: scroll;
