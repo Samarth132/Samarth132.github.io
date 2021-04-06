@@ -120,7 +120,7 @@ body {
 #con3 {
   background-color: #292b2e;
   grid-area: con3;
-  padding: 20px;
+  padding: 10px;
 }
 #con3 > p {
   font-family: "Ubuntu", sans-serif;
@@ -141,6 +141,7 @@ body {
 #con4 {
   background: #292b2e;
   grid-area: con4;
+  padding: 10px;
 }
 
 #con5 {
@@ -337,6 +338,16 @@ article > #l {
     background: url(aboutmo.jpeg) no-repeat;
     background-size: 100% 100%;
     grid-area: con1;
+    padding: 10px;
+    object-fit: cover;
+  }
+  #con1,
+  #con2,
+  #con3,
+  #con4,
+  #con5,
+  #con6 {
+    width: 100vw;
     padding: 10px;
   }
   #about > h1 {
