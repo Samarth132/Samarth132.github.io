@@ -346,8 +346,9 @@ article > #l {
   #about > div {
     margin-top: 0;
     margin-bottom: auto;
-    height: 130%;
-    width: 100%;
+    font-size: 100%;
+    height: 1.5fr;
+    width: 1fr;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
