@@ -334,7 +334,6 @@ article > #l {
       "con2";
   }
   #con1 {
-    background: #5;
     grid-area: con1;
     padding: 10px;
   }
