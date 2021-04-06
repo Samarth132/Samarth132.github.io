@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  margin: 0px;
   background-color: #faefe0;
-  margin: 0;
 }
 .container {
   background-color: #e1e9fc;
@@ -21,8 +21,8 @@ body {
 #con1 {
   background: url(about2.jpeg) no-repeat;
   grid-area: con1;
+  width: 100%;
   height: 100%;
-  width: 100vw;
   padding: 10px;
   overflow: scroll;
   object-fit: cover;
@@ -84,7 +84,7 @@ body {
   margin: 0;
   color: #092120;
   font-size: 120%;
-  width: 40vw;
+  width: 50vw;
   height: 100%;
   margin-left: 10vw;
   margin-right: auto;
@@ -249,14 +249,14 @@ body {
 #p2 > p,
 #p3 > p {
   font-family: "Lato", sans-serif;
-  font-size: 120%;
+  font-size: 1.5vw;
   position: absolute;
   top: 50%;
   bottom: 50%;
   background-color: #cadfeb;
   padding: 3px;
-  width: 20vh;
-  height: 6vh;
+  width: 14vw;
+  height: 4vw;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -334,7 +334,6 @@ article > #l {
   }
   #con1 {
     grid-area: con1;
-    width: 100vw;
     padding: 10px;
   }
   #about > h1 {
@@ -346,10 +345,17 @@ article > #l {
     margin-top: 0;
     margin-bottom: auto;
     height: 130%;
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  #p1 > p,
+  #p2 > p,
+  #p3 > p {
+    font-size: 4.5vw;
+    width: 34vw;
+    height: 12vw;
   }
   #git {
     height: 20%;
