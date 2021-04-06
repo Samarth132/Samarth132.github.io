@@ -334,6 +334,8 @@ article > #l {
       "con2";
   }
   #con1 {
+    background: url(aboutmob.jpeg) no-repeat;
+    background-size: 100% 100%;
     grid-area: con1;
     padding: 10px;
   }
@@ -345,7 +347,6 @@ article > #l {
   #about > div {
     margin-top: 0;
     margin-bottom: auto;
-    height: 200px;
     width: 250px;
     text-align: center;
     margin-left: auto;
